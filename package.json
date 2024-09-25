@@ -1,0 +1,29 @@
+{
+  "name": "mockups",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.8.3",
+    "html2canvas": "^1.4.1",
+    "join-images": "^1.1.5",
+    "merge-images": "^2.0.0",
+    "pinia": "^2.1.7",
+    "primevue": "^3.29.2",
+    "sharp": "^0.33.5",
+    "three": "^0.168.0",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
