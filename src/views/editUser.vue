@@ -100,7 +100,13 @@ export default {
             this.name = res.data.data.name;
             this.username = res.data.data.username;
             this.email = res.data.data.email;
-            this.selectedContries = res.data.data.countries;
+            for(let i = 0 ; i<this.countries.length ; i++){
+                for(let x = 0 ; x< res.data.data.countries.length ; x++){
+
+                }
+            }
+            this.selectedContries = Array.from(res.data.data.countries);
+            console.log(this.selectedContries)
             // this.name = res.data.data.name;
 
         })
@@ -170,13 +176,13 @@ export default {
           >
             <template #option="slotProps">
               <div class="d-flex align-items-center justify-content-center">
-                <img
+                <!-- <img
                   :alt="slotProps.option.name"
                   :src="slotProps.option.flag"
                   :class="`flag flag-${slotProps.option.code.toLowerCase()} mr-2`"
                   class="mx-3"
                   style="width: 18px"
-                />
+                /> -->
                 <div>{{ slotProps.option.name }}</div>
               </div>
             </template>

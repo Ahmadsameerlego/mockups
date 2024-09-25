@@ -192,7 +192,7 @@ import image9 from "@/assets/denemark/9.png";
 import image10 from "@/assets/denemark/10.png";
 import Toast from "primevue/toast";
 
-import mergeImages from "merge-images";
+// import mergeImages from "merge-images";
 
 export default {
   data() {
